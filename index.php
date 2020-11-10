@@ -7,7 +7,7 @@ $sobre = $sobre->fetch()['sobre'];
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <title>Projeto Dev Web Bootstrap</title>
+  <title>Bootstrap WebSite</title>
   <!-- Bootstrap -->
   <link href="_css/bootstrap.min.css" rel="stylesheet">
   <link href="_css/style.css" rel="stylesheet">
@@ -28,7 +28,7 @@ $sobre = $sobre->fetch()['sobre'];
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">LOGO EMPRESA</a>
+        <a class="navbar-brand" href="#"><?php echo htmlentities('<'); ?>Logomarca<?php echo htmlentities('>');  ?></a>
       </div>
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
