@@ -99,7 +99,7 @@ $sobre = $sobre->fetch()['sobre'];
                 <div class="row">
                   <div class="col-md-2">
                     <div class="user-picture">
-                      <div class="user-picture-child"></div>
+                      <div class="user-picture-child"><img src="_images/img (<?php echo $i+1; ?>).jpg" /></div>
                     </div>
                   </div>
                   <div class="col-md-10">
