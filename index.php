@@ -32,14 +32,14 @@ $sobre = $sobre->fetch()['sobre'];
       </div>
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Contato</a></li>
+          <li class="active"><a href="#home">Home</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#contato">Contato</a></li>
         </ul>
       </div><!--/.nav-collapse -->
     </div>
   </nav>
-  <div class="box">
+  <div id="home" class="box">
     <section class="banner">
       <div class="overlay"></div>
       <div class="container chamada-banner">
@@ -78,7 +78,7 @@ $sobre = $sobre->fetch()['sobre'];
         </div>
       </div>
     </section>
-    <section class="diferenciais text-center">
+    <section id="sobre" class="diferenciais text-center">
       <h2>Um pouco sobre nossa empresa</h2>
       <div class="container diferenciais-container">
         <div class="row"><?php echo $sobre; ?></div>
@@ -113,7 +113,7 @@ $sobre = $sobre->fetch()['sobre'];
         </div>
       </div><!--equipe-container-->
     </section>
-    <section class="final-site">
+    <section id="contato" class="final-site">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -172,5 +172,6 @@ $sobre = $sobre->fetch()['sobre'];
   </div><!--box-->
   <script src="_js/jquery.js"></script>
   <script src="_js/bootstrap.min.js"></script>
+  <script src="_js/menu_scroll.js"></script>
 </body>
 </html>
